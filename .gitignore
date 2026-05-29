@@ -1,0 +1,56 @@
+# Unity generated / cache folders (regenerated automatically — never commit)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Unity3D generated files
+/[Aa]ssets/[Aa]ssetStoreTools*
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/JetBrains*
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D crash reports
+sysinfo.txt
+*.stackdump
+
+# Unity build output / IL2CPP / Burst leftovers (regenerated, "DoNotShip")
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
+*_ButDontShipItWithYourGame/
+.utmp/
+.vsconfig
+
+# Gradle / Android build artifacts
+.gradle/
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# OS / IDE
+.DS_Store
+.idea/
+.vs/
+.vscode/
+Thumbs.db

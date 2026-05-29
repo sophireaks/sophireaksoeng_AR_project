@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+apply from: '../shared/common.gradle'
+**APPLY_PLUGINS**
+
+dependencies {
+    implementation project(':unityLibrary')
+**DEPS**}
+
+android {
+    ndkPath "**NDKPATH**"
+    ndkVersion "**NDKVERSION**"
+
+    compileSdk **APIVERSION**
+    buildToolsVersion = "**BUILDTOOLS**"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        minSdk **MINSDK**
+        targetSdk **TARGETSDK**
+        versionCode **VERSIONCODE**
+        versionName '**VERSIONNAME**'
+        **ADDITIONAL_MANIFEST_XML**
+    }
+
+    configurations.all {
+        resolutionStrategy {
+            force 'com.google.ar:core:1.44.0'
+        }
+    }
+}
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
+**EXTERNAL_SOURCES**
